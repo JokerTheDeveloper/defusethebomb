@@ -1,1 +1,128 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Defuse The Bomb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="./favicon.ico" alt="Bomb Logo">
+        <div class="title">Defuse the Bomb</div>
+        <a href="./about">About</a>
+    </header>
+
+    <div class="container">
+        <div class="c4-container">
+            <div id="c4">
+                <div class="screen noselect" id="screen"></div>
+                <div class="buttons-grid">
+                    <div class="button" onclick="addNumber('1');"></div>
+                    <div class="button" onclick="addNumber('2');"></div>
+                    <div class="button" onclick="addNumber('3');"></div>
+                    <div class="button" onclick="addNumber('4');"></div>
+                    <div class="button" onclick="addNumber('5');"></div>
+                    <div class="button" onclick="addNumber('6');"></div>
+                    <div class="button" onclick="addNumber('7');"></div>
+                    <div class="button" onclick="addNumber('8');"></div>
+                    <div class="button" onclick="addNumber('9');"></div>
+                    <div class="button" onclick="removeLastNumber();"></div>
+                    <div class="button" onclick="addNumber('0');"></div>
+                    <div class="button" onclick="checkCode();"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="riddles-container">
+            <div class="riddles">
+                <button class="show-riddle">
+                    <div class="rid-number">1</div>
+                    <div class="rid-title">First Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+                
+                <button class="show-riddle">
+                    <div class="rid-number">2</div>
+                    <div class="rid-title">Second Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+                
+                <button class="show-riddle">
+                    <div class="rid-number">3</div>
+                    <div class="rid-title">Third Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="show-riddle">
+                    <div class="rid-number">4</div>
+                    <div class="rid-title">Fourth Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="show-riddle">
+                    <div class="rid-number">5</div>
+                    <div class="rid-title">Fifth Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="show-riddle">
+                    <div class="rid-number">6</div>
+                    <div class="rid-title">Sixth Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+                <button class="show-riddle">
+                    <div class="rid-number">7</div>
+                    <div class="rid-title">Seventh Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+                <button class="show-riddle">
+                    <div class="rid-number">8</div>
+                    <div class="rid-title">Eighth Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+                <button class="show-riddle">
+                    <div class="rid-number">9</div>
+                    <div class="rid-title">Ninth Number Riddle</div>
+                    <div class="rid-char">+</div>
+                </button>
+                <div class="riddle">
+                <p>Lorem ipsum...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="title">Made By Joker</div>
+        <div class="title">Copright &copy 2023</div>
+        <a href="./about">About</a>
+    </footer>
+
+</body>
+<script src="./script.js"></script>
+</html>
